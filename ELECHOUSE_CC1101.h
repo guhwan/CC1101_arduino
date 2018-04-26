@@ -40,6 +40,7 @@ On Oct 22, 2016 10:07 PM, "Simon Monk" <srmonk@gmail.com> wrote:
 #define F_915       0x00
 #define F_433       0x01
 #define F_868       0x02
+#define F_402       0x03
 
 // Register values for different frequencies
 // Carrier frequency = 868 MHz
@@ -54,7 +55,10 @@ On Oct 22, 2016 10:07 PM, "Simon Monk" <srmonk@gmail.com> wrote:
 #define F2_433  0x10       
 #define F1_433  0xA7        
 #define F0_433  0x62        
-
+// Carrier frequency = 402 MHz
+#define F2_402  0x0F       
+#define F1_402  0x76        
+#define F0_402  0x27     
 
 
 
